@@ -3,9 +3,8 @@
 interface
 
 uses
-  DH.CountryCode,
   DH.PublicHoliday,
-  DH.Contract.PublicHolidayProvider;
+  DH.Contract;
 
 type
   TUkraineProvider = class(TInterfacedObject, IPublicHolidayProvider)
@@ -15,6 +14,9 @@ type
   end;
 
 implementation
+
+uses
+  DH.Enums;
 
 { TUkraineProvider }
 

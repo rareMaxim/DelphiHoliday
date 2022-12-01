@@ -3,8 +3,7 @@
 interface
 
 uses
-  DH.CountryCode,
-  DH.PublicHolidayType;
+  DH.Enums;
 
 type
   TPublicHoliday = record

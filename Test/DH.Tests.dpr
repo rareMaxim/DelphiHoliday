@@ -15,12 +15,12 @@ uses
   DUnitX.TestFramework,
   Test.Main in 'Test.Main.pas',
   DelphiHolidays in '..\DelphiHolidays.pas',
-  DH.Contract.PublicHolidayProvider in '..\DH.Contract.PublicHolidayProvider.pas',
-  DH.CountryCode in '..\DH.CountryCode.pas',
+  DH.Contract in '..\DH.Contract.pas',
   DH.Provider.NoHolidaysProvider in '..\DH.Provider.NoHolidaysProvider.pas',
   DH.Provider.Ukraine in '..\DH.Provider.Ukraine.pas',
   DH.PublicHoliday in '..\DH.PublicHoliday.pas',
-  DH.PublicHolidayType in '..\DH.PublicHolidayType.pas';
+  DH.Enums in '..\DH.Enums.pas',
+  DH.Provider.Weekends in '..\DH.Provider.Weekends.pas';
 
 {$IFNDEF TESTINSIGHT}
 var

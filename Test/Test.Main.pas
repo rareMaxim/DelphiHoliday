@@ -32,8 +32,14 @@ type
 
 implementation
 
+uses
+  System.SysUtils;
+
 procedure THolidaysTest.Setup;
+var
+  x: TFormatSettings;
 begin
+  x := TFormatSettings.Create('uk-UA');
   FHolidays := TDelphiHolidays.Create;
 end;
 

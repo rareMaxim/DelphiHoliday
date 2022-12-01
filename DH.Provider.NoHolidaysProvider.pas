@@ -3,9 +3,8 @@
 interface
 
 uses
-  DH.CountryCode,
   DH.PublicHoliday,
-  DH.Contract.PublicHolidayProvider;
+  DH.Contract;
 
 type
   TNoHolidaysProvider = class(TInterfacedObject, IPublicHolidayProvider)
